@@ -1,4 +1,3 @@
-/*
 package Task4;
 
 public class Calculator {
@@ -34,4 +33,3 @@ public class Calculator {
         };
     }
 }
-*/

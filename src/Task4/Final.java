@@ -1,4 +1,3 @@
-/*
 package Task4;
 
 public class Final {
@@ -16,4 +15,3 @@ public class Final {
 
     }
 }
-*/

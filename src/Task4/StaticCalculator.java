@@ -1,4 +1,3 @@
-/*
 package Task4;
 
 public class StaticCalculator {
@@ -22,4 +21,3 @@ public class StaticCalculator {
         return firstValue / secondValue;
     }
 }
-*/
