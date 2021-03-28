@@ -12,11 +12,13 @@ public class Boxer {
     }
 
     public boolean fight(Boxer anotherBoxer) {
-        if (anotherBoxer.weight>Boxer.this.weight){
+        if (Boxer.this.weight>anotherBoxer.weight && Boxer.this.age>anotherBoxer.age && Boxer.this.strength>anotherBoxer.strength ){
+            System.out.println("Did our boxer win?");
             return true;
         }
         else
-            return false;
+            System.out.println("Did our boxer win?");
+        return false;
 
     }
 }

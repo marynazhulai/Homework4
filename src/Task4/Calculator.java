@@ -24,12 +24,17 @@ public class Calculator {
 
 
      public double calculate() {
-        return switch (operation) {
-            case "+" -> firstValue + secondValue;
-            case "-" -> firstValue - secondValue;
-            case "*" -> firstValue * secondValue;
-            case "/" -> secondValue !=0 ? firstValue/secondValue : 0 ;
-            default -> 0.0;
-        };
+         switch (operation) {
+             case "+":
+                 return firstValue + secondValue;
+             case "-":
+                 return firstValue - secondValue;
+             case "*":
+                 return firstValue * secondValue;
+             case "/":
+                 return secondValue != 0 ? firstValue / secondValue : 0;
+             default:
+                 return 0.0;
+         }
     }
 }
